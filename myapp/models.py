@@ -27,8 +27,8 @@ class Classe(models.Model):
 
 class Eleve(models.Model):
 	nom_eleve=models.CharField(max_length=50)
-	prenom_elev=models.CharField(max_length=50)
-	grade_elev=models.CharField(max_length=30)
+	prenom_eleve=models.CharField(max_length=50)
+	grade_eleve=models.CharField(max_length=30)
 
 	def __str__(self):
 		return self.nom_eleve
